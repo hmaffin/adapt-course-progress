@@ -1,7 +1,8 @@
 @courseProgressBarHeight: 10px;
 
 .page.shows-progress {
-    padding-bottom: @block-padding-top + @courseProgressBarHeight + @body-text-font-size + @block-padding-bottom + @block-padding;
+    //padding-bottom: @block-padding-top + @courseProgressBarHeight + @body-text-font-size + @block-padding-bottom + @block-padding;
+    padding-bottom: 64px;
 }
 
 #course-progress {
@@ -12,7 +13,7 @@
     z-index: 99;
 
     .block-inner {
-        padding-bottom: @block-padding-bottom;
+        padding-bottom: 0px;
         padding-top: @block-padding-top;
     }
 
@@ -26,10 +27,10 @@
     }
 
     .progress-percent-complete {
-        color: @foreground-color-inverted;
+           color: black;
         font-size: 0.9em;
         font-weight: bold;
-        margin: @item-margin 0;
+        margin: 0px 0;
         text-align: right;
     }
 }
